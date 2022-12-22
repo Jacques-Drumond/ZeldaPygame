@@ -2,7 +2,7 @@ import pygame, sys
 from settings import *
 from level import Level
 class Game:
-    icon = pygame.image.load('images\logo.jpg')
+    icon = pygame.image.load('logo.jpg')
     def __init__(self):
         
         pygame.init()
